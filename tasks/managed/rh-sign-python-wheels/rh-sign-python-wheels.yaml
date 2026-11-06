@@ -122,7 +122,7 @@ spec:
         - name: sourceDataArtifact
           value: $(params.sourceDataArtifact)
     - name: attest-blob
-      image: quay.io/konflux-ci/release-service-utils@sha256:6d4dee971855fe55724c16b049e21a396287b53766ffd3fa984ee91895e9f099
+      image: quay.io/redhat-user-workloads-stage/konflux-release-service-tenant/release-service-utils@sha256:8d74a2a0c6b3578748c0129948387432c9f23db436d041f3888ba1fdc04f5020
       computeResources:
         limits:
           memory: 3Gi
